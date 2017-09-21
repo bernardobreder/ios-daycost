@@ -1,0 +1,660 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0108C29018BBC80700ACC711 /* UICostMonthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0108C28F18BBC80700ACC711 /* UICostMonthViewController.m */; };
+		013234F918C6A78100674BD8 /* AppFixture.m in Sources */ = {isa = PBXBuildFile; fileRef = 013234F818C6A78100674BD8 /* AppFixture.m */; };
+		015D562218BAA94C001F1304 /* Time.m in Sources */ = {isa = PBXBuildFile; fileRef = 015D561F18BAA94C001F1304 /* Time.m */; };
+		015D8F7D18DF888900576ECA /* UILazyPageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 015D8F7C18DF888900576ECA /* UILazyPageView.m */; };
+		0161277018B8DEBD0064D56D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0161276F18B8DEBD0064D56D /* Foundation.framework */; };
+		0161277218B8DEBD0064D56D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0161277118B8DEBD0064D56D /* CoreGraphics.framework */; };
+		0161277418B8DEBD0064D56D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0161277318B8DEBD0064D56D /* UIKit.framework */; };
+		0161277A18B8DEBD0064D56D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0161277818B8DEBD0064D56D /* InfoPlist.strings */; };
+		0161277C18B8DEBD0064D56D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0161277B18B8DEBD0064D56D /* main.m */; };
+		0161278018B8DEBE0064D56D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0161277F18B8DEBE0064D56D /* AppDelegate.m */; };
+		0161278218B8DEBE0064D56D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0161278118B8DEBE0064D56D /* Images.xcassets */; };
+		0161278918B8DEBE0064D56D /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0161278818B8DEBE0064D56D /* XCTest.framework */; };
+		0161278A18B8DEBE0064D56D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0161276F18B8DEBD0064D56D /* Foundation.framework */; };
+		0161278B18B8DEBE0064D56D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0161277318B8DEBD0064D56D /* UIKit.framework */; };
+		0161279318B8DEBE0064D56D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0161279118B8DEBE0064D56D /* InfoPlist.strings */; };
+		0161279518B8DEBE0064D56D /* UICostListViewControllerTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 0161279418B8DEBE0064D56D /* UICostListViewControllerTest.m */; };
+		016127A718B8DFF00064D56D /* UICostListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 016127A618B8DFF00064D56D /* UICostListViewController.m */; };
+		016127AA18B8DFFB0064D56D /* UICostDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 016127A918B8DFFB0064D56D /* UICostDetailViewController.m */; };
+		016127AD18B8E0070064D56D /* UICostCreateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 016127AC18B8E0070064D56D /* UICostCreateViewController.m */; };
+		017D56AB18C428800043E16B /* background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 017D56AA18C428800043E16B /* background.jpg */; };
+		017D56AD18C429300043E16B /* background-320x480.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 017D56AC18C429300043E16B /* background-320x480.jpg */; };
+		0190D50F18C2264F002D4665 /* Adicionar.js in Sources */ = {isa = PBXBuildFile; fileRef = 0190D50E18C2264F002D4665 /* Adicionar.js */; };
+		01E7A13818BC1BDB00EF6623 /* UICostReportViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01E7A13718BC1BDB00EF6623 /* UICostReportViewController.m */; };
+		01E99AB218B9501400EB0409 /* Cost.m in Sources */ = {isa = PBXBuildFile; fileRef = 01E99AB118B9501400EB0409 /* Cost.m */; };
+		01E99AB818B9502A00EB0409 /* CostModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 01E99AB718B9502A00EB0409 /* CostModel.m */; };
+		01FA018C18B981800012DC5D /* UIInfinitScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 01FA018B18B981800012DC5D /* UIInfinitScrollView.m */; };
+		01FA018E18BA23300012DC5D /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 01FA018D18BA23300012DC5D /* libsqlite3.dylib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0161278C18B8DEBE0064D56D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0161276418B8DEBD0064D56D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0161276B18B8DEBD0064D56D;
+			remoteInfo = BrederApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0108C28E18BBC80700ACC711 /* UICostMonthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UICostMonthViewController.h; path = Controller/Cost/Month/UICostMonthViewController.h; sourceTree = "<group>"; };
+		0108C28F18BBC80700ACC711 /* UICostMonthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UICostMonthViewController.m; path = Controller/Cost/Month/UICostMonthViewController.m; sourceTree = "<group>"; };
+		013234F718C6A78100674BD8 /* AppFixture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppFixture.h; sourceTree = "<group>"; };
+		013234F818C6A78100674BD8 /* AppFixture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppFixture.m; sourceTree = "<group>"; };
+		015D561E18BAA94C001F1304 /* Time.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Time.h; path = ../iPhoneUtil/Time/Time.h; sourceTree = "<group>"; };
+		015D561F18BAA94C001F1304 /* Time.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Time.m; path = ../iPhoneUtil/Time/Time.m; sourceTree = "<group>"; };
+		015D8F7B18DF888900576ECA /* UILazyPageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UILazyPageView.h; path = ../iPhoneUtil/UILazyPageView/UILazyPageView.h; sourceTree = "<group>"; };
+		015D8F7C18DF888900576ECA /* UILazyPageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UILazyPageView.m; path = ../iPhoneUtil/UILazyPageView/UILazyPageView.m; sourceTree = "<group>"; };
+		0161276C18B8DEBD0064D56D /* DayCost.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DayCost.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0161276F18B8DEBD0064D56D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0161277118B8DEBD0064D56D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		0161277318B8DEBD0064D56D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		0161277718B8DEBD0064D56D /* DayCost-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DayCost-Info.plist"; sourceTree = "<group>"; };
+		0161277918B8DEBD0064D56D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0161277B18B8DEBD0064D56D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0161277D18B8DEBD0064D56D /* DayCost-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DayCost-Prefix.pch"; sourceTree = "<group>"; };
+		0161277E18B8DEBE0064D56D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0161277F18B8DEBE0064D56D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0161278118B8DEBE0064D56D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		0161278718B8DEBE0064D56D /* DayCostTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DayCostTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0161278818B8DEBE0064D56D /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		0161279018B8DEBE0064D56D /* DayCostTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DayCostTests-Info.plist"; sourceTree = "<group>"; };
+		0161279218B8DEBE0064D56D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0161279418B8DEBE0064D56D /* UICostListViewControllerTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UICostListViewControllerTest.m; sourceTree = "<group>"; };
+		016127A518B8DFF00064D56D /* UICostListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UICostListViewController.h; path = Controller/Cost/List/UICostListViewController.h; sourceTree = "<group>"; };
+		016127A618B8DFF00064D56D /* UICostListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UICostListViewController.m; path = Controller/Cost/List/UICostListViewController.m; sourceTree = "<group>"; };
+		016127A818B8DFFB0064D56D /* UICostDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UICostDetailViewController.h; path = Controller/Cost/Detail/UICostDetailViewController.h; sourceTree = "<group>"; };
+		016127A918B8DFFB0064D56D /* UICostDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UICostDetailViewController.m; path = Controller/Cost/Detail/UICostDetailViewController.m; sourceTree = "<group>"; };
+		016127AB18B8E0070064D56D /* UICostCreateViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UICostCreateViewController.h; path = Controller/Cost/Create/UICostCreateViewController.h; sourceTree = "<group>"; };
+		016127AC18B8E0070064D56D /* UICostCreateViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UICostCreateViewController.m; path = Controller/Cost/Create/UICostCreateViewController.m; sourceTree = "<group>"; };
+		017D56AA18C428800043E16B /* background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = background.jpg; path = Resources/background.jpg; sourceTree = "<group>"; };
+		017D56AC18C429300043E16B /* background-320x480.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "background-320x480.jpg"; path = "Resources/background-320x480.jpg"; sourceTree = "<group>"; };
+		0190D50E18C2264F002D4665 /* Adicionar.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = Adicionar.js; sourceTree = "<group>"; };
+		01E7A13618BC1BDB00EF6623 /* UICostReportViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UICostReportViewController.h; path = Controller/Cost/Report/UICostReportViewController.h; sourceTree = "<group>"; };
+		01E7A13718BC1BDB00EF6623 /* UICostReportViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UICostReportViewController.m; path = Controller/Cost/Report/UICostReportViewController.m; sourceTree = "<group>"; };
+		01E99AB018B9501400EB0409 /* Cost.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Cost.h; path = Model/Cost/Cost.h; sourceTree = "<group>"; };
+		01E99AB118B9501400EB0409 /* Cost.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Cost.m; path = Model/Cost/Cost.m; sourceTree = "<group>"; };
+		01E99AB618B9502A00EB0409 /* CostModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CostModel.h; path = Model/Cost/CostModel.h; sourceTree = "<group>"; };
+		01E99AB718B9502A00EB0409 /* CostModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CostModel.m; path = Model/Cost/CostModel.m; sourceTree = "<group>"; };
+		01FA018A18B981800012DC5D /* UIInfinitScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UIInfinitScrollView.h; path = ../iPhoneUtil/UIInfinitScrollView/UIInfinitScrollView.h; sourceTree = "<group>"; };
+		01FA018B18B981800012DC5D /* UIInfinitScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UIInfinitScrollView.m; path = ../iPhoneUtil/UIInfinitScrollView/UIInfinitScrollView.m; sourceTree = "<group>"; };
+		01FA018D18BA23300012DC5D /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0161276918B8DEBD0064D56D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01FA018E18BA23300012DC5D /* libsqlite3.dylib in Frameworks */,
+				0161277218B8DEBD0064D56D /* CoreGraphics.framework in Frameworks */,
+				0161277418B8DEBD0064D56D /* UIKit.framework in Frameworks */,
+				0161277018B8DEBD0064D56D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0161278418B8DEBE0064D56D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0161278918B8DEBE0064D56D /* XCTest.framework in Frameworks */,
+				0161278B18B8DEBE0064D56D /* UIKit.framework in Frameworks */,
+				0161278A18B8DEBE0064D56D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0108C28D18BBC7ED00ACC711 /* Month */ = {
+			isa = PBXGroup;
+			children = (
+				0108C28E18BBC80700ACC711 /* UICostMonthViewController.h */,
+				0108C28F18BBC80700ACC711 /* UICostMonthViewController.m */,
+			);
+			name = Month;
+			sourceTree = "<group>";
+		};
+		015D561918BAA945001F1304 /* Time */ = {
+			isa = PBXGroup;
+			children = (
+				015D561E18BAA94C001F1304 /* Time.h */,
+				015D561F18BAA94C001F1304 /* Time.m */,
+			);
+			name = Time;
+			sourceTree = "<group>";
+		};
+		0161276318B8DEBD0064D56D = {
+			isa = PBXGroup;
+			children = (
+				016127A018B8DFA60064D56D /* Controller */,
+				0161279F18B8DFA20064D56D /* Model */,
+				0161279E18B8DF970064D56D /* Component */,
+				0161277518B8DEBD0064D56D /* DayCost */,
+				0161278E18B8DEBE0064D56D /* DayCostTests */,
+				0161276E18B8DEBD0064D56D /* Frameworks */,
+				0161276D18B8DEBD0064D56D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0161276D18B8DEBD0064D56D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0161276C18B8DEBD0064D56D /* DayCost.app */,
+				0161278718B8DEBE0064D56D /* DayCostTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0161276E18B8DEBD0064D56D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				01FA018D18BA23300012DC5D /* libsqlite3.dylib */,
+				0161276F18B8DEBD0064D56D /* Foundation.framework */,
+				0161277118B8DEBD0064D56D /* CoreGraphics.framework */,
+				0161277318B8DEBD0064D56D /* UIKit.framework */,
+				0161278818B8DEBE0064D56D /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0161277518B8DEBD0064D56D /* DayCost */ = {
+			isa = PBXGroup;
+			children = (
+				0161277E18B8DEBE0064D56D /* AppDelegate.h */,
+				0161277F18B8DEBE0064D56D /* AppDelegate.m */,
+				017D56A918C4286B0043E16B /* Resources */,
+				0161278118B8DEBE0064D56D /* Images.xcassets */,
+				0161277618B8DEBD0064D56D /* Supporting Files */,
+			);
+			name = DayCost;
+			path = BrederApp;
+			sourceTree = "<group>";
+		};
+		0161277618B8DEBD0064D56D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0161277718B8DEBD0064D56D /* DayCost-Info.plist */,
+				0161277818B8DEBD0064D56D /* InfoPlist.strings */,
+				0161277B18B8DEBD0064D56D /* main.m */,
+				0161277D18B8DEBD0064D56D /* DayCost-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0161278E18B8DEBE0064D56D /* DayCostTests */ = {
+			isa = PBXGroup;
+			children = (
+				0190D50E18C2264F002D4665 /* Adicionar.js */,
+				0161279418B8DEBE0064D56D /* UICostListViewControllerTest.m */,
+				013234F718C6A78100674BD8 /* AppFixture.h */,
+				013234F818C6A78100674BD8 /* AppFixture.m */,
+				0161278F18B8DEBE0064D56D /* Supporting Files */,
+			);
+			name = DayCostTests;
+			path = BrederAppTests;
+			sourceTree = "<group>";
+		};
+		0161278F18B8DEBE0064D56D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0161279018B8DEBE0064D56D /* DayCostTests-Info.plist */,
+				0161279118B8DEBE0064D56D /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0161279E18B8DF970064D56D /* Component */ = {
+			isa = PBXGroup;
+			children = (
+				015D561918BAA945001F1304 /* Time */,
+				01FA018518B9815E0012DC5D /* UIInfinitScrollView */,
+			);
+			name = Component;
+			sourceTree = "<group>";
+		};
+		0161279F18B8DFA20064D56D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				01E99AAF18B94FF100EB0409 /* Cost */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		016127A018B8DFA60064D56D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				016127A418B8DFC20064D56D /* Cost */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		016127A118B8DFAA0064D56D /* Create */ = {
+			isa = PBXGroup;
+			children = (
+				016127AB18B8E0070064D56D /* UICostCreateViewController.h */,
+				016127AC18B8E0070064D56D /* UICostCreateViewController.m */,
+			);
+			name = Create;
+			sourceTree = "<group>";
+		};
+		016127A218B8DFB40064D56D /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				016127A818B8DFFB0064D56D /* UICostDetailViewController.h */,
+				016127A918B8DFFB0064D56D /* UICostDetailViewController.m */,
+			);
+			name = Detail;
+			sourceTree = "<group>";
+		};
+		016127A318B8DFB80064D56D /* List */ = {
+			isa = PBXGroup;
+			children = (
+				016127A518B8DFF00064D56D /* UICostListViewController.h */,
+				016127A618B8DFF00064D56D /* UICostListViewController.m */,
+			);
+			name = List;
+			sourceTree = "<group>";
+		};
+		016127A418B8DFC20064D56D /* Cost */ = {
+			isa = PBXGroup;
+			children = (
+				016127A318B8DFB80064D56D /* List */,
+				016127A218B8DFB40064D56D /* Detail */,
+				016127A118B8DFAA0064D56D /* Create */,
+				0108C28D18BBC7ED00ACC711 /* Month */,
+				01E7A13218BC1BAD00EF6623 /* Report */,
+			);
+			name = Cost;
+			sourceTree = "<group>";
+		};
+		017D56A918C4286B0043E16B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				017D56AC18C429300043E16B /* background-320x480.jpg */,
+				017D56AA18C428800043E16B /* background.jpg */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		01E7A13218BC1BAD00EF6623 /* Report */ = {
+			isa = PBXGroup;
+			children = (
+				01E7A13618BC1BDB00EF6623 /* UICostReportViewController.h */,
+				01E7A13718BC1BDB00EF6623 /* UICostReportViewController.m */,
+			);
+			name = Report;
+			sourceTree = "<group>";
+		};
+		01E99AAF18B94FF100EB0409 /* Cost */ = {
+			isa = PBXGroup;
+			children = (
+				01E99AB018B9501400EB0409 /* Cost.h */,
+				01E99AB118B9501400EB0409 /* Cost.m */,
+				01E99AB618B9502A00EB0409 /* CostModel.h */,
+				01E99AB718B9502A00EB0409 /* CostModel.m */,
+			);
+			name = Cost;
+			sourceTree = "<group>";
+		};
+		01FA018518B9815E0012DC5D /* UIInfinitScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				015D8F7B18DF888900576ECA /* UILazyPageView.h */,
+				015D8F7C18DF888900576ECA /* UILazyPageView.m */,
+				01FA018A18B981800012DC5D /* UIInfinitScrollView.h */,
+				01FA018B18B981800012DC5D /* UIInfinitScrollView.m */,
+			);
+			name = UIInfinitScrollView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0161276B18B8DEBD0064D56D /* DayCost */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0161279818B8DEBE0064D56D /* Build configuration list for PBXNativeTarget "DayCost" */;
+			buildPhases = (
+				0161276818B8DEBD0064D56D /* Sources */,
+				0161276918B8DEBD0064D56D /* Frameworks */,
+				0161276A18B8DEBD0064D56D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DayCost;
+			productName = BrederApp;
+			productReference = 0161276C18B8DEBD0064D56D /* DayCost.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0161278618B8DEBE0064D56D /* DayCostTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0161279B18B8DEBE0064D56D /* Build configuration list for PBXNativeTarget "DayCostTests" */;
+			buildPhases = (
+				0161278318B8DEBE0064D56D /* Sources */,
+				0161278418B8DEBE0064D56D /* Frameworks */,
+				0161278518B8DEBE0064D56D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0161278D18B8DEBE0064D56D /* PBXTargetDependency */,
+			);
+			name = DayCostTests;
+			productName = BrederAppTests;
+			productReference = 0161278718B8DEBE0064D56D /* DayCostTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0161276418B8DEBD0064D56D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Bernardo Breder";
+				TargetAttributes = {
+					0161276B18B8DEBD0064D56D = {
+						DevelopmentTeam = NF8525TU2D;
+						SystemCapabilities = {
+							com.apple.DataProtection = {
+								enabled = 0;
+							};
+						};
+					};
+					0161278618B8DEBE0064D56D = {
+						TestTargetID = 0161276B18B8DEBD0064D56D;
+					};
+				};
+			};
+			buildConfigurationList = 0161276718B8DEBD0064D56D /* Build configuration list for PBXProject "DayCost" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0161276318B8DEBD0064D56D;
+			productRefGroup = 0161276D18B8DEBD0064D56D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0161276B18B8DEBD0064D56D /* DayCost */,
+				0161278618B8DEBE0064D56D /* DayCostTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0161276A18B8DEBD0064D56D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				017D56AB18C428800043E16B /* background.jpg in Resources */,
+				0161277A18B8DEBD0064D56D /* InfoPlist.strings in Resources */,
+				0161278218B8DEBE0064D56D /* Images.xcassets in Resources */,
+				017D56AD18C429300043E16B /* background-320x480.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0161278518B8DEBE0064D56D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0161279318B8DEBE0064D56D /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0161276818B8DEBD0064D56D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01E7A13818BC1BDB00EF6623 /* UICostReportViewController.m in Sources */,
+				01E99AB218B9501400EB0409 /* Cost.m in Sources */,
+				01FA018C18B981800012DC5D /* UIInfinitScrollView.m in Sources */,
+				01E99AB818B9502A00EB0409 /* CostModel.m in Sources */,
+				016127AD18B8E0070064D56D /* UICostCreateViewController.m in Sources */,
+				016127AA18B8DFFB0064D56D /* UICostDetailViewController.m in Sources */,
+				0161278018B8DEBE0064D56D /* AppDelegate.m in Sources */,
+				015D8F7D18DF888900576ECA /* UILazyPageView.m in Sources */,
+				015D562218BAA94C001F1304 /* Time.m in Sources */,
+				016127A718B8DFF00064D56D /* UICostListViewController.m in Sources */,
+				0108C29018BBC80700ACC711 /* UICostMonthViewController.m in Sources */,
+				0161277C18B8DEBD0064D56D /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0161278318B8DEBE0064D56D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				013234F918C6A78100674BD8 /* AppFixture.m in Sources */,
+				0161279518B8DEBE0064D56D /* UICostListViewControllerTest.m in Sources */,
+				0190D50F18C2264F002D4665 /* Adicionar.js in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0161278D18B8DEBE0064D56D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0161276B18B8DEBD0064D56D /* DayCost */;
+			targetProxy = 0161278C18B8DEBE0064D56D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0161277818B8DEBD0064D56D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0161277918B8DEBD0064D56D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		0161279118B8DEBE0064D56D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0161279218B8DEBE0064D56D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0161279618B8DEBE0064D56D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0161279718B8DEBE0064D56D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0161279918B8DEBE0064D56D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BrederApp/DayCost-Prefix.pch";
+				INFOPLIST_FILE = "BrederApp/DayCost-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				PRODUCT_NAME = DayCost;
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		0161279A18B8DEBE0064D56D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BrederApp/DayCost-Prefix.pch";
+				INFOPLIST_FILE = "BrederApp/DayCost-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				PRODUCT_NAME = DayCost;
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		0161279C18B8DEBE0064D56D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BrederApp.app/BrederApp";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BrederApp/BrederApp-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "BrederAppTests/DayCostTests-Info.plist";
+				PRODUCT_NAME = DayCostTests;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		0161279D18B8DEBE0064D56D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BrederApp.app/BrederApp";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BrederApp/BrederApp-Prefix.pch";
+				INFOPLIST_FILE = "BrederAppTests/DayCostTests-Info.plist";
+				PRODUCT_NAME = DayCostTests;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0161276718B8DEBD0064D56D /* Build configuration list for PBXProject "DayCost" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0161279618B8DEBE0064D56D /* Debug */,
+				0161279718B8DEBE0064D56D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0161279818B8DEBE0064D56D /* Build configuration list for PBXNativeTarget "DayCost" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0161279918B8DEBE0064D56D /* Debug */,
+				0161279A18B8DEBE0064D56D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0161279B18B8DEBE0064D56D /* Build configuration list for PBXNativeTarget "DayCostTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0161279C18B8DEBE0064D56D /* Debug */,
+				0161279D18B8DEBE0064D56D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0161276418B8DEBD0064D56D /* Project object */;
+}
